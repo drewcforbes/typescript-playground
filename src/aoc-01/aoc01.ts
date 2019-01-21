@@ -18,7 +18,7 @@ for (const entry of dataByLine) {
     // sum += bigint(num);
     const num: number = parseInt(entry, 10);
     sum += num;
-    console.log('num ' + num + "   sum " + sum);
+    console.log('num ' + num + '   sum ' + sum);
 
     // const firstChar: string = entry.slice(0, 1);
     // console.log(firstChar);

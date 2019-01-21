@@ -14,7 +14,8 @@
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc -p .",
-    "fix": "gts fix",
+    "lint:dryRun": "./node_modules/tslint/bin/tslint --config tslint.json src/**/*.ts",
+    "lint:fix": "./node_modules/tslint/bin/tslint --fix --config tslint.json src/**/*.ts",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run check"
